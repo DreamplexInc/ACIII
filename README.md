@@ -1,5 +1,7 @@
 # ACIII
 Новый метод шифрования для приложений на платформе .NET Framework 4.7.2
+#### Тип проекта : Библиотека .NET Framework
+#### Версия проекта : v1.0.0.0 (Debug)
 ## :point_right: Ссылка на скачивание : **https://yadi.sk/d/KREzjdpWcWjN6g**
 
 
