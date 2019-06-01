@@ -77,3 +77,8 @@ namespace ACIII
 Encryption.EncryptToACIII(string, EncryptionModule _EncModule);
 ```
 > Шифрует значение предоставленное в типе **string**, в **ACIII** кодировку
+
+# Социальная сеть
+#### ВКонтакте : **https://vk.com/the_dreamplex**
+#### ACIII Вконтакте : **https://vk.com/aciii_code**
+#### Разработчик Вконтакте : **https://vk.com/dragonree**
