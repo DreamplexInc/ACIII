@@ -76,4 +76,4 @@ namespace ACIII
 ```c#
 Encryption.EncryptToACIII(string, EncryptionModule _EncModule);
 ```
->> Шифрует значение предоставленное в типе **string**, в **ACIII** кодировку
+> Шифрует значение предоставленное в типе **string**, в **ACIII** кодировку
