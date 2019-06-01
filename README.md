@@ -9,6 +9,9 @@
 using dwnclib;
 ```
 - Создайте экземпляр класса Encryption
+```c#
+Encryption _Encryption = new Encryption();
+```
 - Для шифрования текста в ACIII, впишите след. код :
 ```c#
 Encrypt.EncryptToACIII("TXT", Encryption.EncryptionModule.ACIIIModuleToHPI);
