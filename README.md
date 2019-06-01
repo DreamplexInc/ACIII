@@ -13,5 +13,6 @@ using dwnclib;
 ```c#
 Encrypt.EncryptToACIII("TXT", Encryption.EncryptionModule.ACIIIModuleToHPI);
 ```
-- Вместо "TXT" можете исполльзовать другие значения типа ```c# string ```
->> Этот метод возвращает текстовые значения (string)
+> Этот метод возвращает текстовые значения (string)
+> Вместо "TXT" можете исполльзовать другие значения типа ```c# string ```
+
