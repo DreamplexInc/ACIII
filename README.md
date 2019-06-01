@@ -4,6 +4,64 @@
 #### Версия проекта : v1.0.0.0 (Debug)
 ## :point_right: Ссылка на скачивание : **https://yadi.sk/d/KREzjdpWcWjN6g**
 
+# Таблица ACIII
+--- С нижним регистром ---
+--------------------------
+a -> SfZLMK
+b -> IVPHnK
+c -> VlGKNH
+d -> jHgSjN
+e -> kbmVTs
+f -> GrIoLMS
+g -> ufhmBs
+h -> DdDpyO
+i -> JhhCvh
+j -> bFrcOV
+k -> DCRzpA
+l -> VlGKNH
+m -> avYCLP
+n -> USbKzo
+o -> YeiaHn
+p -> zXNiKI
+q -> GkDeNP
+r -> SDOimz
+s -> VgxpvT
+t -> oMNSuS
+u -> YxzKfT
+v -> yRJChS
+w -> ycoEVP
+x -> GeLmnn
+y -> gnUpXt
+z -> jsIkTa
+---------------------------
+--- С верхним регистром ---
+---------------------------
+A -> UaHNFp
+B -> vIDQYx
+C -> wIbDCT
+D -> Bueqip
+E -> VipNYa
+F -> OkndYR
+G -> LxayGP
+H -> KXQNBk
+I -> aRkDRx
+J -> CImfax
+K -> eeUEib
+L -> ubssBi
+M -> JhggYK
+N -> yjRtse
+O -> IzQvua
+P -> xtntPU
+Q -> zxFnIx
+R -> OpKHbl
+S -> cJPtMW
+T -> tFenYY
+U -> ZIiOds
+V -> LzfLCR
+W -> jDqgzN
+X -> EVkuwr
+Y -> sSkidu
+Z -> lzibOu
 
 # Как пользоваться?
 - Подключите библиотеку к своему проекту
