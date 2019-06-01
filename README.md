@@ -43,3 +43,8 @@ namespace ACIII
 ![ACIIIExample1](https://downloader.disk.yandex.ru/preview/763b776d78efc125d2d7790482af7aefbf6e9d6dce99daa85c1f8275014289dc/5cf317cd/zIvvq_bS8cgR_88wdRL7Z-KmKAsagD6NXWjENJMociY4zYOqkyY8EAv9LFTsbpeDBbgDs7JOlQY1EmrvsPIC6A%3D%3D?uid=0&filename=ACIIIExample1.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=2048x2048 "Пример работы шифрования ACIII")
 > Метод `EncryptToACIII();` возвращает только значения типа `string`
 
+#Справочник функций
+```c#
+Encryption.EncryptToACIII(**string, EncryptionModule _EncModule**);
+```
+> Шифрует значение предоставленное в типе **string**, в **ACIII** кодировку
