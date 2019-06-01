@@ -5,8 +5,13 @@
 # Как пользоваться?
 - Подключите библиотеку к своему проекту
 - Подключите директиву библиотеки в коде вашей программы
-<csharp>using dwnclib;<csharp>
+```c#
+using dwnclib;
+```
 - Создайте экземпляр класса Encryption
 - Для шифрования текста в ACIII, впишите след. код :
-> Encrypt.EncryptToACIII(encBox.Text, Encryption.EncryptionModule.ACIIIModuleToHPI);
+```c#
+Encrypt.EncryptToACIII("TXT", Encryption.EncryptionModule.ACIIIModuleToHPI);
+```
+- Вместо "TXT" можете исполльзовать другие значения типа ```c# string ```
 >> Этот метод возвращает текстовые значения (string)
