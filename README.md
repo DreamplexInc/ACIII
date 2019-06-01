@@ -32,10 +32,12 @@ namespace ACIII
             string t;
             t = _Enc.EncryptToACIII("Hello, World!", Encryption.EncryptionModule.ACIIIModuleToHPI);
             Console.WriteLine($"Оригинал : Hello, World!\nЗашифрованный в ACIII : {t}");
+            Console.ReadLine();
         }
     }
 }
 ```
-> Этот метод возвращает текстовые значения (string)
-> Вместо "TXT" можете исполльзовать другие значения типа ```c# string ```
+В результате работы программы(в этом примере) вы получите такие сообщения в консоле : 
+![ACIIIExample1](https://yadi.sk/i/zr5hpkLDS8QfnA "Пример работы шифрования ACIII")
+> Метод `c# EncryptToACIII();` возвращает только значения типа `c# string`
 
