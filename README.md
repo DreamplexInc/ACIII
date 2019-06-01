@@ -5,7 +5,8 @@
 # Как пользоваться?
 - Подключите библиотеку к своему проекту
 - Подключите директиву библиотеки в коде вашей программы
-> <using dwnclib;>
+> <c#>using dwnclib;<c#>
+- Создайте экземпляр класса Encryption
 - Для шифрования текста в ACIII, впишите след. код :
-> <Encrypt.EncryptToACIII(encBox.Text, Encryption.EncryptionModule.ACIIIModuleToHPI);>
->> Этот метод возвращает значения <string>
+> Encrypt.EncryptToACIII(encBox.Text, Encryption.EncryptionModule.ACIIIModuleToHPI);
+>> Этот метод возвращает текстовые значения (string)
