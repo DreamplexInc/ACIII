@@ -54,26 +54,38 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using dwnclib;
+//Компоненты от Dreamplex
+using Dreamplex.ACIII; //Подключаем библиотеку для использования ACIII шифрования
 
-namespace ACIII
+namespace ACIIIApp
 {
     class Program
     {
-        static Encryption _Enc = new Encryption();
         static void Main(string[] args)
         {
-            string t;
-            t = _Enc.EncryptToACIII("Hello, World!", Encryption.EncryptionModule.ACIIIModuleToHPI);
-            Console.WriteLine($"Оригинал : Hello, World!\nЗашифрованный в ACIII : {t}");
+            //Создаем переменную, откуда и будем брать написанный нами текст
+            string _Input = "";
+            //Создаем экземпляр класса ACIIIEncryption
+            ACIIIEncryption _ACIIIEncryption = new ACIIIEncryption();
+            //Выводим сообщение приветствия и т.д.
+            Console.Write("Добро пожаловать в среду ACIII App!");
+            Console.Write("\nВведите ваш шифруемый текст : ");
+            _Input = Console.ReadLine();
+            //Показываем зашифрованный текст (результат)
+            Console.Write($"\nРезультат шифрования : {_ACIIIEncryption.EncryptTextToACIII(_Input, ACIIIEncryption.EncryptionModule.ACIIIModule)}" );
+
+            //Конечное сообщение в консоли
+            Console.Write("\nДля продолжения нажмите любую клавишу...");
             Console.ReadLine();
         }
     }
 }
+
 ```
 В результате работы программы(в этом примере) вы получите такие сообщения в консоле : 
 ![ACIIIExample1](https://downloader.disk.yandex.ru/preview/763b776d78efc125d2d7790482af7aefbf6e9d6dce99daa85c1f8275014289dc/5cf317cd/zIvvq_bS8cgR_88wdRL7Z-KmKAsagD6NXWjENJMociY4zYOqkyY8EAv9LFTsbpeDBbgDs7JOlQY1EmrvsPIC6A%3D%3D?uid=0&filename=ACIIIExample1.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=2048x2048 "Пример работы шифрования ACIII")
-> Метод `EncryptToACIII();` возвращает только значения типа `string`
+> ##### Метод `EncryptTextToACIII(string _EncryptableText, EncryptionMethod _EncryptionMethod);` возвращает только значения типа `string`
+> ##### Метод `EncryptFileToACIII(string _FileName, EncryptionMethod _EncryptionMethod);` не возвращает значения, т.к. этот метод является типом `void`. Этот метод шифрует данные в ACIII, которые находятся в файле
 
 #Справочник функций
 >
