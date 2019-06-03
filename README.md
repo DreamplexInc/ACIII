@@ -72,7 +72,7 @@ using Dreamplex.ACIII;
 ```
 - Создайте экземпляр класса Encryption
 ```c#
-ACIIIEncryption _ACIIIEnc = new ACIIIEncryption();
+ACIIIEncryption _ACIIIEncryption = new ACIIIEncryption();
 ```
 - Пример использования класса ACIIIEncryption :
 ```c#
