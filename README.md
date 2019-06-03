@@ -36,18 +36,45 @@
 - x -> GeLmnn
 - y -> gnUpXt
 - z -> jsIkTa
+#### С верхним регистром
+- A -> UaHNFp
+- B -> vIDQYx
+- C -> wIbDCT
+- D -> Bueqip
+- E -> VipNYa
+- F -> OkndYR
+- G -> LxayGP
+- H -> KXQNBk
+- I -> aRkDRx
+- J -> CImfax
+- K -> eeUEib
+- L -> ubssBi
+- M -> JhggYK
+- N -> yjRtse
+- O -> IzQvua
+- P -> xtntPU
+- Q -> zxFnIx
+- R -> OpKHbl
+- S -> cJPtMW
+- T -> tFenYY
+- U -> ZIiOds
+- V -> LzfLCR
+- W -> jDqgzN
+- X -> EVkuwr
+- Y -> sSkidu
+- Z -> lzibOu
 
 # Как пользоваться?
 - Подключите библиотеку к своему проекту
 - Подключите директиву библиотеки в коде вашей программы
 ```c#
-using dwnclib;
+using Dreamplex.ACIII;
 ```
 - Создайте экземпляр класса Encryption
 ```c#
-Encryption _Encryption = new Encryption();
+ACIIIEncryption _ACIIIEnc = new ACIIIEncryption();
 ```
-- Пример использования класса Encryption :
+- Пример использования класса ACIIIEncryption :
 ```c#
 using System;
 using System.Collections.Generic;
@@ -89,10 +116,24 @@ namespace ACIIIApp
 
 #Справочник функций
 >
+- Шифрование текста
 ```c#
-Encryption.EncryptToACIII(string, EncryptionModule _EncModule);
+EncryptTextToACIII(string _EncryptableText, EncryptionMethod _EncryptionMethod);
 ```
-> Шифрует значение предоставленное в типе **string**, в **ACIII** кодировку
+- Шифрование текста в файле
+```c#
+EncryptFileToACIII(string _FileName, EncryptionMethod _EncryptionMethod);
+```
+- Получить текст из файла
+```c#
+ReadTextFromFile(string _FileName);
+```
+- Сохранить зашифрованные данные в отдельный файл
+```c#
+SaveEncryptedTextToFile(string _FileName, string _WritableText);
+```
+
+> Шифрует текстовое значение предоставленное в типе **string**, в **ACIII** кодировку с типом **string**
 
 # Социальная сеть
 #### ВКонтакте : **https://vk.com/the_dreamplex**
