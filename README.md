@@ -70,7 +70,7 @@
 ```c#
 using Dreamplex.ACIII;
 ```
-- Создайте экземпляр класса Encryption
+- Создайте экземпляр класса ACIIIEncryption
 ```c#
 ACIIIEncryption _ACIIIEncryption = new ACIIIEncryption();
 ```
